@@ -1,0 +1,11 @@
+local Supported = "Flexer X"
+local Supported2 = "Lightning X [V1]"
+local Executor = getexecutorname()
+
+if Executor == Supported then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/AtlasExploits/FlexAdmin/main/FlexAdmin.lua'))()
+end
+
+if Executor == Supported2 then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/AtlasExploits/FlexAdmin/main/FlexAdmin.lua'))()
+end	
