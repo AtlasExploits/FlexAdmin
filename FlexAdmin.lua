@@ -476,7 +476,7 @@ local script = G2L["19"];
 	
 	local function Notify(Message)
 		StarterGui:SetCore("SendNotification", {
-			Title = "Unknown",
+			Title = "F",
 			Text = Message,
 			Duration = 4 + (Message:len() * 0.1)
 		})
